@@ -1,6 +1,8 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import routing from './main.routes';
+import moment from 'moment';
+import * as _ from 'lodash';
 
 export class MainController {
   awesomeThings = [];

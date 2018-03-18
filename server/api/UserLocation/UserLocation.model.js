@@ -4,9 +4,9 @@ import mongoose from 'mongoose';
 import {registerEvents} from './UserLocation.events';
 
 var UserLocationSchema = new mongoose.Schema({
-  name: String,
-  info: String,
-  active: Boolean
+  userName: String,
+  locationId: String,
+  date: String
 });
 
 registerEvents(UserLocationSchema);

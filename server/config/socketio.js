@@ -16,6 +16,7 @@ function onConnect(socket) {
   });
 
   // Insert sockets below
+  require('../api/yelp/yelp.socket').register(socket);
   require('../api/UserLocation/UserLocation.socket').register(socket);
   require('../api/thing/thing.socket').register(socket);
 }
