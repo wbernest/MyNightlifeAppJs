@@ -1,0 +1,35 @@
+main {
+  .container{
+    margin-top: 20px;
+  }
+  .search-form {
+    margin: 20px 0;
+  }
+
+  .create-vote-form {
+    margin: 30px;
+    text-align: center;
+  }
+  #accordion{
+    overflow: auto;
+    max-height: 300px;
+  }
+  .badge{
+    float: right;
+  }
+  div.panel-body{
+    img{
+      width: 30%;
+      height: auto;
+      max-height: 200px;
+      position: relative;
+      float: left;
+    }
+    div.row{
+      position: relative;
+      float: right;
+      width: 70%
+    }
+  }
+}
+
